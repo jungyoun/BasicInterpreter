@@ -1,0 +1,27 @@
+<b>함수목록</b> - 현재 지원되고 있는 함수목록<br><br>
+<b>목차</b><br>
+<a href="index.php?page=func#1">1.변수선언</a><br><a href="index.php?page=func#2">2.변수값 대입</a><br><a href="index.php?page=func#3">3.PRINT문</a><br><a href="index.php?page=func#4">4.IF-ELSE문</a><br><a href="index.php?page=func#5">5.INDEX</a><br><a href="index.php?page=func#6">6.GOTO</a><br><a href="index.php?page=func#7">7.GOSUB</a><br><a href="index.php?page=func#8">8.FOR</a><br>
+<b>&nbsp;</b><br>
+<b><a name="1">1</a>.변수 선언 </b>(생략가능)<br>
+예)<br>dim a<br>dim a,b,c<br>dim a=1,b=3&nbsp;<br><br>
+<b><a name="2">2</a>.변수에 값 대입</b><br>
+예)<br>a=1 * (b /a)<br><br>
+<b><a name="3">3</a>.PRINT문</b><br>
+예)<br>a=&quot;학교&quot;<br>b=12<br>c=&quot;시&quot;<br>d=3<br>PRINT &quot;나는 &quot; a &quot;에 간다.&quot; b-d, c &quot;에&quot;<br>
+&lt;출력&gt;<br>나는 학교에 간다. 9시에<br><br>
+<b><a name="4">4</a>.IF-ELSE문</b> (다중IF문 지원됩니다.)<br>
+예)<br>a=3 <BR>if a&lt;10 then <BR>if a&gt;6 then <BR>PRINT &quot;6보다는 크네요. 현재값 : &quot; a <br>
+else <BR>PRINT &quot;6보다도 작네요. 현재값 : &quot; a <BR>end if <BR>else <BR>print &quot;10보다 <br>
+작습니다.. 현재값 : &quot; a <BR>end if<br>
+<br>if (a&gt;10) then print &quot;10보다 큽니다. 현재값&quot; : &quot; a else print &quot;10보다 작습니다. 현재값 : &quot; a<br><br>
+<b><a name="5">5</a>.INDEX </b>(베이직에서 사용되는 줄번호)<br>
+예)<br>200 print &quot;하이&quot;<br><br>
+<b><a name="6">6</a>.GOTO</b><br>
+예)<br>goto 200<br><br>
+<b><a name="7">7</a>.GOSUB</b><br>
+예)<br>print &quot;GOSUB로&quot;<br>gosub 300<br>end<br>300 print &quot;GOSUB 시작&quot;<br>rem <br>
+gosub는 리턴을 만나면 다시원래줄로 돌아간다.<br>return<br><br>
+<b><a name="8">8</a>.FOR</b> (다중FOR문 지원,STEP 생략가능)<br>
+예)<br>FOR i=a to 10<br>&nbsp;&nbsp;&nbsp;&nbsp;a2=a2+1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FOR i2=0 to a2 step 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+PRINT &quot; *&quot;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NEXT<br>&nbsp;&nbsp;&nbsp;&nbsp;PRINT &quot;&lt;br&gt;&quot;<br>NEXT<br>
+&nbsp;
